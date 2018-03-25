@@ -12,6 +12,7 @@
 * 09.0 - Contact
 * 10.0 - Footer
 * 11.0 - Responsive styles
+* 12.0 - Parallax Effect
 * -----------------------------------------------------------------------------
 */
 
@@ -37,7 +38,7 @@ html {
 
 body {
 	color: #6a6a6a;	
-	background: #f1f0f0;
+	background: #F0F0F0;
 }
 
 p {margin: 0 0 20px 0;	}
@@ -160,14 +161,16 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom: 15px;
 	line-height: 1em;
 	font-family: 'Nixie One';
-	color: white;
+
+	text-shadow: 3px 3px #666666;
+	color: black;
 }
 
 #header .secondary-slogan{
 	font-size: 1.6em;
-	color: rgba(255,255,255,.5);
+	color: #000000;
 	line-height: 1em;
-	font-family: 'Alegreya SC';
+	font-family: 'Nixie One';
 }
 
 #header .bottom {
